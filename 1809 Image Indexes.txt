@@ -1,0 +1,32 @@
+Index : 1
+Name : Windows 10 Home
+
+Index : 2
+Name : Windows 10 Home N
+
+Index : 3
+Name : Windows 10 Home Single Language
+
+Index : 4
+Name : Windows 10 Education
+
+Index : 5
+Name : Windows 10 Education N
+
+Index : 6
+Name : Windows 10 Pro
+
+Index : 7
+Name : Windows 10 Pro N
+
+Index : 8
+Name : Windows 10 Pro Education
+
+Index : 9
+Name : Windows 10 Pro Education N
+
+Index : 10
+Name : Windows 10 Pro for Workstations
+
+Index : 11
+Name : Windows 10 Pro N for Workstations
