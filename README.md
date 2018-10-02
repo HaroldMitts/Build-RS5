@@ -12,7 +12,7 @@ I will add 32-bit as time permits and update this repository, but if you want to
 * X21-87816 Win 10 1809 64-bit MultiLang OPK Feat on Demand
 * X21-87818 Win 10 1809 32/64 English Home/Pro/SL/S/N OPK
 
-The scripts leverage a working directory on a technician PC located at C:\TMP
-The scripts also leverage a mount path at C:\Mount
+1. The scripts leverage a working directory on a technician PC located at C:\TMP
+2. The scripts also leverage a mount path at C:\Mount
 
 If you decide you want to build at a different location, you will need to modify the paths in the scripts appropriately.
