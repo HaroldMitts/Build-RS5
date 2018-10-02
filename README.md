@@ -1,5 +1,7 @@
 # Build-RS5 Build scripts for Windows 10, version 1809
-The scripts included in this repository will enable you to build a Windows 10, version 1809 English and Japanese Multilanguage image including Features on Demand and AppX localized updates
+The scripts included in this repository will enable you to build a Windows 10, version 1809 English and Japanese Multilanguage 64-bit image including Features on Demand and AppX localized updates
+
+I will add 32-bit as time permits and update this repository, but if you want to add 32-bit now, its pretty much the same process, just some different source files - go for it.
 
 #### To use these scripts, you will need access to the Windows 10, version 1809 OPK files, as follows;
 
