@@ -1,0 +1,867 @@
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>"c:\TMP\Build-amd64-en-ja-1809(JP).cmd"
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Mount-Image /ImageFile:"C:\TMP\install.wim" /index:6 /mountdir:"C:\Mount\Windows"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Mount-Image /ImageFile:"C:\Mount\Windows\Windows\System32\Recovery\Winre.wim" /Index:1 /MountDir:"C:\Mount\WinRE"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\LanguageFeaturePacks\amd64\Microsoft-Windows-LanguageFeatures-Basic-en-us-Package~31bf3856ad364e35~amd64~~.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-LanguageFeatures-Basic-en-us-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\LanguageFeaturePacks\amd64\Microsoft-Windows-LanguageFeatures-OCR-en-us-Package~31bf3856ad364e35~amd64~~.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-LanguageFeatures-OCR-en-us-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\LanguageFeaturePacks\amd64\Microsoft-Windows-LanguageFeatures-Handwriting-en-us-Package~31bf3856ad364e35~amd64~~.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-LanguageFeatures-Handwriting-en-us-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\LanguageFeaturePacks\amd64\Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package~31bf3856ad364e35~amd64~~.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\LanguageFeaturePacks\amd64\Microsoft-Windows-LanguageFeatures-Speech-en-us-Package~31bf3856ad364e35~amd64~~.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-LanguageFeatures-Speech-en-us-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /packagepath:"C:\TMP\LanguageFeaturePacks\amd64\Microsoft-Windows-RetailDemo-OfflineContent-Content-en-us-Package~31bf3856ad364e35~amd64~~.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-RetailDemo-OfflineContent-Content-en-us-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\LanguagePacks\x64\langpacks\Microsoft-Windows-Client-Language-Pack_x64_ja-jp.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-Client-LanguagePack-Package~31bf3856ad364e35~amd64~ja-JP~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\LanguageFeaturePacks\amd64\Microsoft-Windows-LanguageFeatures-Basic-ja-jp-Package~31bf3856ad364e35~amd64~~.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-LanguageFeatures-Basic-ja-jp-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\LanguageFeaturePacks\amd64\Microsoft-Windows-LanguageFeatures-OCR-ja-jp-Package~31bf3856ad364e35~amd64~~.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-LanguageFeatures-OCR-ja-jp-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\LanguageFeaturePacks\amd64\Microsoft-Windows-LanguageFeatures-Handwriting-ja-jp-Package~31bf3856ad364e35~amd64~~.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-LanguageFeatures-Handwriting-ja-jp-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\LanguageFeaturePacks\amd64\Microsoft-Windows-LanguageFeatures-TextToSpeech-ja-jp-Package~31bf3856ad364e35~amd64~~.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-LanguageFeatures-TextToSpeech-ja-jp-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\LanguageFeaturePacks\amd64\Microsoft-Windows-LanguageFeatures-Speech-ja-jp-Package~31bf3856ad364e35~amd64~~.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-LanguageFeatures-Speech-ja-jp-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-Package /Image:C:\Mount\Windows /packagepath:"C:\TMP\LanguageFeaturePacks\amd64\Microsoft-Windows-RetailDemo-OfflineContent-Content-ja-jp-Package~31bf3856ad364e35~amd64~~.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-RetailDemo-OfflineContent-Content-ja-jp-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\lp.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package Microsoft-Windows-WinPE-LanguagePack-Package~31bf3856ad364e35~amd64~ja-JP~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-Rejuv_ja-jp.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package WinPE-Rejuv-Package~31bf3856ad364e35~amd64~ja-JP~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-EnhancedStorage_ja-jp.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package WinPE-EnhancedStorage-Package~31bf3856ad364e35~amd64~ja-JP~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-Scripting_ja-jp.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package WinPE-Scripting-Package~31bf3856ad364e35~amd64~ja-JP~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-SecureStartup_ja-jp.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package WinPE-SecureStartup-Package~31bf3856ad364e35~amd64~ja-JP~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-SRT_ja-jp.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package WinPE-SRT-Package~31bf3856ad364e35~amd64~ja-JP~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-WDS-Tools_ja-jp.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package WinPE-WDS-Tools-Package~31bf3856ad364e35~amd64~ja-JP~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-WMI_ja-jp.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package WinPE-WMI-Package~31bf3856ad364e35~amd64~ja-JP~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-StorageWMI_ja-jp.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package WinPE-StorageWMI-Package~31bf3856ad364e35~amd64~ja-JP~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-HTA_ja-jp.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Processing 1 of 1 - Adding package WinPE-HTA-Package~31bf3856ad364e35~amd64~ja-JP~10.0.17763.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>REM DISM /Image:C:\Mount\Windows /Set-AllIntl:en-us
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>REM DISM /Image:C:\Mount\WinRE /Set-AllIntl:en-us
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\Windows /Set-AllIntl:ja-jp
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+
+Input locale has been set to: ja-jp
+System locale has been set to: ja-jp
+User locale has been set to: ja-jp
+UI language has been set to: ja-jp
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\WinRE /Set-AllIntl:ja-jp
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+
+Input locale has been set to: ja-jp
+System locale has been set to: ja-jp
+User locale has been set to: ja-jp
+UI language has been set to: ja-jp
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\WinRE /Get-Intl
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+Reporting offline international settings.
+
+Default system UI language : ja-JP
+The UI language fallback is : en-US
+System locale : ja-JP
+Default time zone : Pacific Standard Time
+User locale for default user : ja-JP
+Location : Japan (GEOID = 122)
+Active keyboard(s) : 0411:{03B5835F-F03C-411B-9CE2-AA23E1171E36}{A76C93D9-5523-4E90-AAFA-4DB112F9AC76}
+Keyboard layered driver : PC/AT Enhanced Keyboard (101/102-Key)
+
+Installed language(s): en-US
+  Type : Fully localized language.
+Installed language(s): ja-JP
+  Type : Partially localized language, MUI type.
+  Fallback Languages en-US
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\Windows /Set-TimeZone:"Tokyo Standard Time"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+
+The time zone has been set to: Tokyo Standard Time
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>REM DISM /Image:C:\Mount\Windows /Set-TimeZone:"Hawaiian Standard Time"
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>REM DISM /Image:C:\Mount\Windows /Set-TimeZone:"Pacific Standard Time"
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>MD C:\Mount\Windows\Recovery\OEM
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>MD C:\Mount\Windows\Recovery\Customizations
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>REM Copy C:\TMP\Apps.ppkg C:\Mount\Windows\Recovery\Customizations\
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>XCopy C:\TMP\Recovery C:\Mount\Windows\Recovery\OEM
+File not found - Recovery
+0 File(s) copied
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>XCopy C:\TMP\layoutmodification.xml C:\Mount\Windows\Recovery\OEM\
+C:\TMP\layoutmodification.xml
+1 File(s) copied
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>XCopy C:\TMP\layoutmodification.xml C:\Mount\Windows\Users\Default\AppData\Local\Microsoft\Windows\Shell\
+C:\TMP\layoutmodification.xml
+1 File(s) copied
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>REM DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\Updates\windows10.0-kb.msu"
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>REM DISM /Add-Package /Image:C:\Mount\WinRE /PackagePath:"C:\TMP\Updates\windows10.0-kb.msu"
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:C:\Mount\Windows /Add-ProvisionedAppxPackage /PackagePath="C:\TMP\Office\shared.PreinstallKit\shared.appxbundle" /OptionalPackagePath="C:\TMP\Office\excel.PreinstallKit\excel.appxbundle" /OptionalPackagePath="C:\TMP\Office\powerpoint.PreinstallKit\powerpoint.appxbundle" /OptionalPackagePath="C:\TMP\Office\word.PreinstallKit\word.appxbundle" /OptionalPackagePath="C:\TMP\Office\outlook.PreinstallKit\outlook.appxbundle" /OptionalPackagePath="C:\TMP\Office\publisher.PreinstallKit\publisher.appxbundle" /OptionalPackagePath="C:\TMP\Office\access.PreinstallKit\access.appxbundle" /LicensePath="C:\TMP\Office\shared.PreinstallKit\shared_License1.xml" /LicensePath="C:\TMP\Office\excel.PreinstallKit\excel_License1.xml" /LicensePath="C:\TMP\Office\powerpoint.PreinstallKit\powerpoint_License1.xml" /LicensePath="C:\TMP\Office\word.PreinstallKit\word_License1.xml" /LicensePath="C:\TMP\Office\outlook.PreinstallKit\outlook_License1.xml" /LicensePath="C:\TMP\Office\publisher.PreinstallKit\publisher_License1.xml" /LicensePath="C:\TMP\Office\access.PreinstallKit\access_License1.xml"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>Call C:\TMP\Reinstall_amd64_Appx.cmd
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>REM The script requires Windows image to be mounted prior to execution
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.BingWeather_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.BingWeather_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.GetHelp_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.GetHelp_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Getstarted_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.Getstarted_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Messaging_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.Messaging_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Microsoft3DViewer_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.Microsoft3DViewer_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.MSPaint_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.MSPaint_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Office.OneNote_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.Office.OneNote_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.OneConnect_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.OneConnect_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.People_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.People_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Print3D_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.Print3D_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.SkypeApp_kzf8qxf38zg5c.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.SkypeApp_kzf8qxf38zg5c.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.StorePurchaseApp_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.StorePurchaseApp_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Wallet_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.Wallet_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Windows.Photos_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.Windows.Photos_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsAlarms_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsAlarms_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsCalculator_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsCalculator_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsCamera_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsCamera_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsCommunicationsApps_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsCommunicationsApps_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsMaps_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsMaps_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsStore_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.WindowsStore_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Xbox.TCUI_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.Xbox.TCUI_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.XboxApp_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.XboxApp_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.XboxGameOverlay_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.XboxGameOverlay_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.XboxIdentityProvider_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.XboxIdentityProvider_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.ZuneMusic_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.ZuneMusic_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.ZuneVideo_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.ZuneVideo_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.HEVCVideoExtension_8wekyb3d8bbwe.x64.appx" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.HEVCVideoExtension_8wekyb3d8bbwe.x64.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>REM New in 1809 - MixedReality, ScreenScetch, and YourPhone
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.MixedReality.Portal_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.MixedReality.Portal_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.ScreenSketch_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.ScreenSketch_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TMP\Apps\amd64fre\Microsoft.YourPhone_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TMP\Apps\amd64fre\Microsoft.YourPhone_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:"C:\Mount\WinRE" /Cleanup-Image /AnalyzeComponentStore
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+[==========================100.0%==========================]
+
+Component Store (WinSxS) information:
+
+Windows Explorer Reported Size of Component Store : 1.17 GB
+
+Actual Size of Component Store : 1.17 GB
+
+    Shared with Windows : 915.20 MB
+    Backups and Disabled Features : 248.43 MB
+    Cache and Temporary Data : 8.98 MB
+
+Date of Last Cleanup :
+Number of Reclaimable Packages : 0
+Component Store Cleanup Recommended : Yes
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:"C:\Mount\WinRE" /Cleanup-Image /StartComponentCleanup /ResetBase
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Unmount-Image /MountDir:"C:\Mount\WinRE" /Commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Export-Image /SourceImageFile:"C:\Mount\Windows\Windows\System32\Recovery\WinRE.wim" /SourceIndex:1 /DestinationImageFile:"C:\TMP\WinRE_Bak.wim"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Exporting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DEL C:\Mount\Windows\Windows\System32\Recovery\WinRE.wim
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>COPY C:\TMP\WinRE_Bak.wim C:\Mount\Windows\Windows\System32\Recovery\WinRE.wim
+        1 file(s) copied.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DEL C:\TMP\WinRE_Bak.wim
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:"C:\Mount\Windows" /Cleanup-Image /AnalyzeComponentStore
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+[==========================100.0%==========================]
+
+Component Store (WinSxS) information:
+
+Windows Explorer Reported Size of Component Store : 6.89 GB
+
+Actual Size of Component Store : 6.85 GB
+
+    Shared with Windows : 6.00 GB
+    Backups and Disabled Features : 823.85 MB
+    Cache and Temporary Data : 21.15 MB
+
+Date of Last Cleanup : 2018-09-14 21:41:47
+
+Number of Reclaimable Packages : 0
+Component Store Cleanup Recommended : No
+
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Image:"C:\Mount\Windows" /Cleanup-Image /StartComponentCleanup /ResetBase
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Image Version: 10.0.17763.1
+
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Unmount-Image /MountDir:"C:\Mount\Windows" /Commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Export-Image /SourceImageFile:"C:\TMP\install.wim" /SourceIndex:6 /DestinationImageFile:"C:\TMP\amd64-EN-JA-Pro.wim"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Exporting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>DISM /Get-WimInfo /WimFile:"C:\TMP\amd64-EN-JA-Pro.wim" /Index:1
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.1
+
+Details for image : C:\TMP\amd64-EN-JA-Pro.wim
+
+Index : 1
+Name : Windows 10 Pro
+Description : Windows 10 Pro
+Size : 20,172,369,022 bytes
+WIM Bootable : No
+Architecture : x64
+Hal : <undefined>
+Version : 10.0.17763
+ServicePack Build : 1
+ServicePack Level : 0
+Edition : Professional
+Installation : Client
+ProductType : WinNT
+ProductSuite : Terminal Server
+System Root : WINDOWS
+Directories : 28375
+Files : 138485
+Created : 9/14/2018 - 11:36:07 PM
+Modified : 10/1/2018 - 4:21:38 PM
+Languages :
+        en-US
+        ja-JP (Default)
+
+The operation completed successfully.
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools>
