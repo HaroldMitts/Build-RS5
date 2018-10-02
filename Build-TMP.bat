@@ -1,5 +1,5 @@
 @ECHO OFF
-ECHO Building folders used with same scripts. 
+ECHO Building folders used with sample scripts. 
 ECHO Place the required OPKs and resources into these folders.
 CLS
 
