@@ -17,7 +17,7 @@ If you decide you want to build at a different location, you will need to modify
 
 More details can be found in the Wiki here: https://github.com/HaroldMitts/Build-RS5/wiki
 
-##### IMPORTANT: As the result of a serious issue and to be on the safe side, Microsoft has removed the 1809 OPK until a resolution can be found.
+#### IMPORTANT: As the result of a serious issue and to be on the safe side, Microsoft has removed the 1809 OPK until a resolution can be found.
 
 ##### While Microsoft investigates this issue, they have taken the extra precaution of pulling all media. Product builds are no longer available on Microsoft's Software Order Center (SOC). 
 
