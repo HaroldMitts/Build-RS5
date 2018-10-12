@@ -13,3 +13,7 @@ MD C:\TMP\MyWindows
 MD C:\TMP\ScanState
 MD C:\TMP\Updates
 MD C:\TMP\WinPE
+
+MD C:\Mount
+MD C:\Mount\Windows 
+MD C:\Mount\WinRE
