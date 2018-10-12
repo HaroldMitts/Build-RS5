@@ -16,3 +16,5 @@ I will add 32-bit as time permits and update this repository, but if you want to
 2. The scripts also leverage a mount path at C:\Mount
 
 If you decide you want to build at a different location, you will need to modify the paths in the scripts appropriately.
+
+More details can be found in the Wiki here: https://github.com/HaroldMitts/Build-RS5/wiki
