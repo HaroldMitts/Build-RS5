@@ -4,4 +4,4 @@ X21-87814 Win 10 1809 32/64/ARM64 MultiLang OPK LangPackAll/LIP
 X21-87815 Win 10 1809 32-bit MultiLang OPK Feat on Demand
 X21-87816 Win 10 1809 64-bit MultiLang OPK Feat on Demand
 
-(OPK TEMPORARILY REMOVED) X21-87818 Win 10 1809 32/64 English Home/Pro/SL/S/N OPK
+X21-96633 Win 10 1809 32/64 English Home/Pro/SL/S/N OPK
