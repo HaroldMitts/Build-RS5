@@ -49,7 +49,7 @@ XCopy C:\TMP\Recovery C:\Mount\Windows\Recovery\OEM
 XCopy C:\TMP\layoutmodification.xml C:\Mount\Windows\Recovery\OEM\
 XCopy C:\TMP\layoutmodification.xml C:\Mount\Windows\Users\Default\AppData\Local\Microsoft\Windows\Shell\
 ::#endregion
-::#region Updates (No changes)
+::#region Updates (No changes) - Don't forget to update KB# with latest update from http://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20version%201809%20cumulative%20update
 REM DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TMP\Updates\windows10.0-kb.msu"
 REM DISM /Add-Package /Image:C:\Mount\WinRE /PackagePath:"C:\TMP\Updates\windows10.0-kb.msu"
 ::#endregion
