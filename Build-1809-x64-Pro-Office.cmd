@@ -51,20 +51,14 @@ MD C:\Mount\Windows\Recovery\OEM
 MD C:\Mount\Windows\Recovery\Customizations
 REM Copy C:\TEMP\Apps.ppkg C:\Mount\Windows\Recovery\Customizations\
 XCopy C:\TEMP\Recovery C:\Mount\Windows\Recovery\OEM
-XCopy C:\TEMP\layoutmodification.xml C:\Mount\Windows\Recovery\OEM\
-XCopy C:\TEMP\layoutmodification.xml C:\Mount\Windows\Users\Default\AppData\Local\Microsoft\Windows\Shell\
+XCopy C:\TEMP\Recovery\layoutmodification.xml C:\Mount\Windows\Users\Default\AppData\Local\Microsoft\Windows\Shell\
 ::#endregion
 
 ::#region Updates (No changes) - Don't forget to update KB# with latest update from http://www.catalog.update.microsoft.com/Search.aspx?q=windows%2010%20version%201809%20cumulative%20update
-REM DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TEMP\Updates\windows10.0-kb.msu"
-REM DISM /Add-Package /Image:C:\Mount\WinRE /PackagePath:"C:\TEMP\Updates\windows10.0-kb.msu"
+DISM /Add-Package /Image:C:\Mount\Windows /PackagePath:"C:\TEMP\Updates\windows10.0-kb4471332-x64_a2bd8ca500cb0d9e358179d1e67ac9e2a3bf43cb.msu"
+DISM /Add-Package /Image:C:\Mount\WinRE /PackagePath:"C:\TEMP\Updates\windows10.0-kb4471332-x64_a2bd8ca500cb0d9e358179d1e67ac9e2a3bf43cb.msu"
 ::#endregion
 
-::#region Office Offline Installation
-DISM /Image:C:\Mount\Windows /Add-ProvisionedAppxPackage /PackagePath="C:\TEMP\Office\shared.appxbundle_PreinstallKit\shared.appxbundle" /OptionalPackagePath="C:\TEMP\Office\excel.appxbundle_PreinstallKit\excel.appxbundle" /OptionalPackagePath="C:\TEMP\Office\powerpoint.appxbundle_PreinstallKit\powerpoint.appxbundle" /OptionalPackagePath="C:\TEMP\Office\word.appxbundle_PreinstallKit\word.appxbundle" /OptionalPackagePath="C:\TEMP\Office\outlook.appxbundle_PreinstallKit\outlook.appxbundle" /OptionalPackagePath="C:\TEMP\Office\publisher.appxbundle_PreinstallKit\publisher.appxbundle" /OptionalPackagePath="C:\TEMP\Office\access.appxbundle_PreinstallKit\access.appxbundle" /LicensePath="C:\TEMP\Office\shared.appxbundle_PreinstallKit\shared_License1.xml" /LicensePath="C:\TEMP\Office\excel.appxbundle_PreinstallKit\excel_License1.xml" /LicensePath="C:\TEMP\Office\powerpoint.appxbundle_PreinstallKit\powerpoint_License1.xml" /LicensePath="C:\TEMP\Office\word.appxbundle_PreinstallKit\word_License1.xml" /LicensePath="C:\TEMP\Office\outlook.appxbundle_PreinstallKit\outlook_License1.xml" /LicensePath="C:\TEMP\Office\publisher.appxbundle_PreinstallKit\publisher_License1.xml" /LicensePath="C:\TEMP\Office\access.appxbundle_PreinstallKit\access_License1.xml"
-::#endregion
-
-::#region Reinstall Appx (App name changes)
 DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.BingWeather_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TEMP\Apps\amd64fre\Microsoft.BingWeather_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx" 
 
 DISM /Add-ProvisionedAppxPackage /image:"C:\Mount\Windows" /PackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle" /LicensePath:"C:\TEMP\Apps\amd64fre\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.xml" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.VCLibs.x64.14.00.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.VCLibs.x86.14.00.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.7.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x64.1.6.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.7.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Framework.x86.1.6.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.7.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x64.1.6.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.7.appx"  /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.NET.Native.Runtime.x86.1.6.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x64.appx" /DependencyPackagePath:"C:\TEMP\Apps\amd64fre\Microsoft.Services.Store.Engagement.x86.appx" 
@@ -164,7 +158,4 @@ DISM /Export-Image /SourceImageFile:"C:\TEMP\install.wim" /SourceIndex:6 /Destin
 DISM /Get-WimInfo /WimFile:"C:\TEMP\amd64-EN-JA-Pro-Office.wim" /Index:1
 ::#endregion
 
-PAUSE
 :EOF
-DISM /Unmount-Image /MountDir:"C:\Mount\WinRE" /Discard
-DISM /Unmount-Image /MountDir:"C:\Mount\Windows" /Discard
