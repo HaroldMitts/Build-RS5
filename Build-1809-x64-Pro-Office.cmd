@@ -24,6 +24,7 @@ DISM /Add-Package /Image:C:\Mount\Windows /packagepath:"C:\TEMP\LanguageFeatureP
 
 ::#region Add Languages for Recovery - Japanese (No changes)
 DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TEMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\lp.cab"
+DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TEMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-FontSupport-JA-JP.cab"
 DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TEMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-Rejuv_ja-jp.cab"
 DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TEMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-EnhancedStorage_ja-jp.cab"
 DISM /Image:C:\Mount\WinRE /Add-Package /PackagePath:"C:\TEMP\LanguagePacks\Windows Preinstallation Environment\x64\WinPE_OCs\ja-jp\WinPE-Scripting_ja-jp.cab"
